@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 40px;
+  border-bottom: var(--main-border);
+}
+
+.header__title {
+  color: var(--green);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header__title:hover {
+  cursor: default;
+}
+
+.header__title i:hover {
+  cursor: default;
+  color: var(--green);
+}
+
+.header__title h2 {
+  color: white;
+  -webkit-text-stroke: 1px var(--green);
+}
+
+.header__help i {
+  color: var(--green);
+}
+
+nav {
+  width: 20%;
+}
+
+.header__nav {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 100px;
+}
+
+.header__nav a {
+  text-decoration-line: none;
+}
+
+.header__nav-item {
+  display: flex;
+  font-size: 20px;
+  color: var(--green);
+}

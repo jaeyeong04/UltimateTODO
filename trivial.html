@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UltimateTODO-Trivial</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/9b0756c5bc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="header__title">
+        <i class="fa-solid fa-list-check fa-flip-both"></i>
+        <h1>Trivial</h1>
+        <h2>TODO</h2>
+      </div>
+      <nav>
+        <ul class="header__nav">
+          <a href="master.html">
+            <li class="header__nav-item">Master</li>
+          </a>
+          <a href="daily.html">
+            <li class="header__nav-item">Daily</li>
+          </a>
+          <a href="trivial.html">
+            <li class="header__nav-item">Trivial</li>
+          </a>
+        </ul>
+      </nav>
+      <div class="header__help">
+        <a href="https://jaeyeong04.tistory.com/4" target="_blank">
+          <i class="fa-solid fa-circle-info"></i>
+        </a>
+      </div>
+    </header>
+    <main class="trivial-screen">
+      <div class="todo-box todo-box--full-screen">
+        <div class="todo-box__header">
+          <div class="todo-box__column">
+            <div class="todo-box__name">Today's Trivia</div>
+          </div>
+        </div>
+        <div class="todo-box__list todo-box__list--xl">
+          <div class="todo-box__scroll">
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/trivial.js"></script>
+</html>
